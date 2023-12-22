@@ -6,9 +6,8 @@
 #define UZDUOTIS_NR_1_BIBLIOTEKOS_H
 
 
-
 #pragma once
-//#include <bits/stdc++.h>
+
 
 
 #include <chrono>
