@@ -17,14 +17,23 @@ https://earthly.dev/blog/makefiles-on-windows/
 - Pirmos programos paleidimo metu rekomenduojama pasirinkti generuoti studentų failą, kad būtų galima sužinoti, kur bus saugomi
 sukurti failai (ten bus ir nuskaitomi failai).
 
-- Galima rinktis iš 5 pasirinkimu R- studentų įrašymas ranka, F - nuskaitymas iš failo, G- studentų failo generavimas, T - konteinerių testavimas,
-S - rūšiavimo strategijų testavimas.(KAD VEIKTŲ T IR S REIKIA SUGENERUOTI 1k,10k,100k,1mil,10mil STUDENTŲ FAILUS).
+- Galima rinktis iš 5 pasirinkimu R- studentų įrašymas ranka, F - nuskaitymas iš failo, G- studentų failo generavimas, T - "RULE OF 3" testavimas,
 
 - Įvedimo metu gali reikti įvesti: studentų skaičių, namų darbų kiekį, norėsite skaičiuoti mediana ar vidurkį, kokią strategiją norėsite naudoti
 rūšiuoti vargšus ir kietus, kokį failą norėsite nuskaityti... Tai reiškia jūsų programa prašys ką reikia įvesti.
 
 ```
 # Uzduotis-nr-2
+## v2.0 
+### nauji dalykai 
+* Sukurta Doxygen dokumentacija
+* Sukurtas naujas failas test.cpp, kuris testuoja medianos ir vidurkio funkcijos išvedimą
+* Buvo naudota Google Test testavimo framework
+
+### Testų rezultatai
+* Buvo rasta, kad Mediana() netinkamai skaičiavo medianas, o tai pastebėjus problema buvo ištaisyta.
+
+
 ## v1.5 
 ### nauji dalykai 
 * Implementuota abstrakti "Zmogus" klasė.
