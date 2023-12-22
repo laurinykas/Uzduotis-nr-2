@@ -7,6 +7,7 @@ vector<Studentai> vargsai;
 Studentai duomenys;
 int studentu_kiekis = 0;
 double roundToTwoDecimalPlaces(double value);
+
 class StudentaiTest : public ::testing::Test {
 protected:
     Studentai student;

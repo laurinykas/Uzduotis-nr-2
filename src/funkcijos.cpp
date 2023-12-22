@@ -245,35 +245,6 @@ void Skaldymas3() {
 
 
 
-
-
-/*
-int SkirstymoStrategijosPas(){
-    int pasirinkimas;
-    cout << "Pagal kokia strategija noresite rusiuoti failus? 1 - 1 strategija, 2 - 2strategija, 3 - 3 strategija " << endl;
-    cin >> pasirinkimas;
-    do{
-        if(pasirinkimas &&( pasirinkimas == 1 || pasirinkimas == 2 || pasirinkimas == 3)){
-            return pasirinkimas;
-
-
-        }
-        else{
-            cout << "Iveskite  1 , 2 arba  3!" << endl;
-            cin.clear();
-            cin.ignore(10000, '\n');
-            cin >> pasirinkimas;
-
-
-        }
-    }while (pasirinkimas != 1 and pasirinkimas != 2 and pasirinkimas != 3);
-
-
-
-}
-*/
-
-
 void Fake_main(){
 
     char ranka_failas;
