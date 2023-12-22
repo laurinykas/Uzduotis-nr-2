@@ -98,9 +98,6 @@ int Vid_ar_med(){
 
 
 
-
-
-
 int Konsole_ar_failas (){
     char kons_fail;
     int konsol1_failas2;
@@ -129,7 +126,6 @@ int Konsole_ar_failas (){
 
 
 }
-
 
 int Isvesties_pasirinkimas (){
     int pasirinkimas;
