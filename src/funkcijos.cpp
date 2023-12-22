@@ -235,8 +235,6 @@ void Skaldymas3() {
 
         auto partitionPoint = std::partition(stud.begin(), stud.end(), partitionPredicate);
 
-        // Now, stud is partitioned into "kieti" (passed) before partitionPoint
-        // and "vargsai" (struggling) after partitionPoint.
 
         kieti.assign(stud.begin(), partitionPoint);
         vargsai.assign(partitionPoint, stud.end());
