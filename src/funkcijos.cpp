@@ -224,35 +224,7 @@ int Rusiavimo_tipas() {
 }
 
 
-/*
-void Skaldymas2(int konteineris ) {
-    if (konteineris == 2 ){
-        auto isVargsas = [](const Studentai &student) {
-            return student.getGalutinis() < 5.00;
-        };
 
-        auto partitionIter = std::partition(stud.begin(), stud.end(), isVargsas);
-
-        vargsai.assign(stud.begin(), partitionIter);
-        kieti.assign(partitionIter, stud.end());
-
-        stud.clear();
-    }
-    else{
-        auto isVargsasList = [](const Studentai &student) {
-            return student.getGalutinis() < 5.00;
-        };
-
-        auto partitionIter = std::partition(stud_list.begin(), stud_list.end(), isVargsasList);
-
-        vargsai_list.assign(stud_list.begin(), partitionIter);
-        kieti_list.assign(partitionIter, stud_list.end());
-
-        stud.clear();
-    }
-    }
-
-*/
 
 
 void Skaldymas3() {

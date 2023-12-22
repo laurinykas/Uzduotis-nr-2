@@ -25,14 +25,19 @@ void Studentai::Mediana() {
     if (n >= 1) {
         sortNd();
         if (n % 2 == 0) {
-            setMed(Cnd[n / 2 - 1] + Cnd[n / 2] / 2) ;
+            // For an even number of elements, the median is the average of the two middle elements
+            setMed((Cnd[n / 2 - 1] + Cnd[n / 2]) / 2.0);
         } else {
-            setMed(Cnd[n / 2]) ;
+            // For an odd number of elements, the median is the middle element
+            setMed(Cnd[n / 2]);
         }
+        // Adjusting the median based on the exam score
+        setMed(0.4 * getMed() + 0.6 * getEgzaminas());
     } else {
-        setMed(0)  ;
+        // If there are no elements, set the median to 0 (or some other default value)
+        setMed(0);
+        setMed(0.4 * getMed() + 0.6 * getEgzaminas());
     }
-    setMed(0.4 * getMed() + 0.6 * getEgzaminas())  ;
 }
 std::istream& operator>>(std::istream& in,Studentai& s ){
 
