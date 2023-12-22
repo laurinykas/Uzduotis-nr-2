@@ -1,0 +1,6 @@
+var searchData=
+[
+  ['platforms_0',['platforms',['../md__debug_2__deps_2googletest-src_2docs_2platforms.html',1,'Supported Platforms'],['../md_googletest_2docs_2platforms.html',1,'Supported Platforms'],['../md__release_2__deps_2googletest-src_2docs_2platforms.html',1,'Supported Platforms']]],
+  ['points_1',['points',['../md__debug_2__deps_2googletest-src_2googlemock_2include_2gmock_2internal_2custom_2_r_e_a_d_m_e.html',1,'Customization Points'],['../md__debug_2__deps_2googletest-src_2googletest_2include_2gtest_2internal_2custom_2_r_e_a_d_m_e.html',1,'Customization Points'],['../md_googletest_2googlemock_2include_2gmock_2internal_2custom_2_r_e_a_d_m_e.html',1,'Customization Points'],['../md_googletest_2googletest_2include_2gtest_2internal_2custom_2_r_e_a_d_m_e.html',1,'Customization Points'],['../md__release_2__deps_2googletest-src_2googlemock_2include_2gmock_2internal_2custom_2_r_e_a_d_m_e.html',1,'Customization Points'],['../md__release_2__deps_2googletest-src_2googletest_2include_2gtest_2internal_2custom_2_r_e_a_d_m_e.html',1,'Customization Points']]],
+  ['primer_2',['primer',['../md__debug_2__deps_2googletest-src_2docs_2primer.html',1,'GoogleTest Primer'],['../md_googletest_2docs_2primer.html',1,'GoogleTest Primer'],['../md__release_2__deps_2googletest-src_2docs_2primer.html',1,'GoogleTest Primer']]]
+];
